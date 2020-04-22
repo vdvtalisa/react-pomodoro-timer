@@ -57,10 +57,6 @@ function App() {
     setIsClosed(!isClosed)
   }
 
-  console.log("isClosed", isClosed);
-  //console.log("isActive", isActive);
-  //console.log("click", click)
-
   return (
       <div>
         <h1>{minutes} : {secondString}</h1>
